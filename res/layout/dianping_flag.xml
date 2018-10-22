@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.yang.inme.utils.border.TopBorderLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                 android:id="@+id/dianping_flag"
+                                                 android:orientation="horizontal"
+                                                 android:layout_width="match_parent"
+                                                 android:layout_height="wrap_content"
+                                                 android:background="@drawable/tuangou_background_border">
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginBottom="10dp"
+                  android:gravity="center">
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="@android:color/darker_gray"
+                  android:textSize="@dimen/dianping_flag"
+                  android:text="@string/dianping_flag1"/>
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:background="@drawable/dianping_flag"/>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="@android:color/darker_gray"
+                  android:textSize="@dimen/dianping_flag"
+                  android:text="@string/dianping_flag2"/>
+    </LinearLayout>
+</cn.yang.inme.utils.border.TopBorderLinearLayout>

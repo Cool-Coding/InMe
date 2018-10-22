@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--    <item
+                android:id="@+id/menu_search"
+                android:actionViewClass="android.widget.SearchView"
+                android:icon="@drawable/ic_menu_search"
+                android:showAsAction="ifRoom|collapseActionView"
+                android:title="搜索"/>-->
+    <item
+            android:id="@+id/menu_search"
+            android:showAsAction="ifRoom"
+            android:actionLayout="@layout/searchview"
+            android:menuCategory="system"
+            android:title="搜索"/>
+
+    <!--    <item
+                android:id="@+id/menu_share"
+                android:actionProviderClass="android.widget.ShareActionProvider"
+                android:showAsAction="never"
+                android:title="分享"/>-->
+</menu>

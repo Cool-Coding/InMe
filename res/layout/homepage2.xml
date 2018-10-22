@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:xyz="http://schemas.android.com/apk/res/cn.yang.inme"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:id="@+id/homepage2">
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+        <cn.yang.inme.indicator.TitleFlowIndicator
+                android:id="@+id/viewflowindic"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                xyz:clipPadding="5dp"
+                xyz:customTypeface="fonts/Antic.ttf"
+                xyz:footerColor="#FFFFC445"
+                xyz:footerLineHeight="2dp"
+                xyz:footerTriangleHeight="10dp"
+                xyz:selectedColor="#FFFFC445"
+                xyz:selectedSize="16sp"
+                xyz:textColor="#909090"
+                xyz:textSize="14sp"
+                xyz:titlePadding="10dp">
+        </cn.yang.inme.indicator.TitleFlowIndicator>
+    </LinearLayout>
+
+    <cn.yang.inme.indicator.ViewFlow
+            android:id="@+id/viewflow"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:duplicateParentState="true" >
+    </cn.yang.inme.indicator.ViewFlow>
+</LinearLayout>

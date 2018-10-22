@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <cn.yang.inme.utils.border.BorderLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical"
+            android:background="@android:color/white"
+            android:minWidth="200dp"
+            android:minHeight="200dp">
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginBottom="20dp"
+                      android:paddingBottom="5dp"
+                      android:paddingTop="1dp"
+                      android:id="@+id/alertTitle">
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:background="@drawable/logo2"
+                       android:layout_marginRight="5dp"/>
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:gravity="bottom"
+                      android:text="InMe提醒您"
+                      android:textSize="@dimen/alert_title_size"
+                      android:textColor="@color/around_color1"/>
+        </LinearLayout>
+        <TextView
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="20dp"
+                android:paddingTop="3dp"
+                android:paddingLeft="5dp"
+                android:gravity="left|top"
+                android:layout_weight="1"
+                />
+
+        <cn.yang.inme.utils.border.BorderLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="horizontal"
+                android:layout_margin="1px">
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:gravity="center"
+                          android:layout_weight="1">
+                <Button android:id="@+id/sure"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/white"
+                        android:text="@string/memo_alertmessage"
+                        android:textSize="15sp"
+                        android:layout_margin="1px"/>
+            </LinearLayout>
+
+            <cn.yang.inme.utils.border.BorderLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:layout_weight="1">
+
+                <Button android:id="@+id/delay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/white"
+                        android:text="@string/memo_alertmessage_delay"
+                        android:textSize="15sp"
+                        android:layout_margin="1px"/>
+
+            </cn.yang.inme.utils.border.BorderLinearLayout>
+
+        </cn.yang.inme.utils.border.BorderLinearLayout>
+    </cn.yang.inme.utils.border.BorderLinearLayout>
+
+</RelativeLayout>

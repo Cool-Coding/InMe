@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- 下拉刷新界面中最后更新时间的文字色 -->
+    <color name="picture_pullrefresh_last_update_time_color">#c4c4c4</color>
+    <color name="search_history">#292421</color>
+
+    <!--周边团购标题，距离等颜色设置-->
+    <color name="around_color1">#292421</color>
+    <color name="around_color2">#FF7D40</color>
+    <color name="around_color3">#FF6100</color>
+
+    <!--周边店铺-->
+    <color name="around_shop_book_down">#D2B48C</color>
+    <color name="around_shop_book_up">#0066ff</color>
+    <color name="around_shop_content">#878787</color>
+    <color name="around_shop_title">#292929</color>
+
+    <!--边框颜色-->
+    <color name="border_basecolor">#DA70D6</color>
+    <color name="homepage_list_header">#1E90FF</color>
+
+    <!--今日路径线条颜色-->
+    <color name="homepage_path">#DA70D6</color>
+
+    <!--微博-->
+    <color name="face_bg">#eef1f4</color>
+    <color name="send_enable">#00aa00</color>
+    <color name="send_disable">#ebebeb</color>
+    <color name="image_check">#77FF00</color>
+    <color name="weibo_item_color">#FFFAFA</color>
+
+    <color name="theme_color">#9933FA</color>
+</resources>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/meSet">
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:background="@drawable/tuangou_background_border"
+                  android:alpha="0.9">
+        <cn.yang.inme.utils.border.BottomBorderTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="路径"
+                android:textSize="@dimen/set_title_fontsize"
+                android:textStyle="bold"
+                android:paddingBottom="2dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"/>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/start_path_function_str"
+                    android:gravity="left|center"
+                    android:textSize="@dimen/set_content_fontsize"
+                    android:layout_weight="1"/>
+
+            <Switch
+                    android:id="@+id/pathswitch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:layout_marginLeft="10dp"
+                      android:layout_marginRight="10dp">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/locate_time_interval_str"
+                    android:gravity="left|center"
+                    android:textSize="@dimen/set_content_fontsize"/>
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:gravity="right">
+                <Spinner android:id="@+id/location_interval"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                        />
+            </LinearLayout>
+        </LinearLayout>
+
+        <cn.yang.inme.utils.border.BottomBorderTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="主题"
+                android:textSize="@dimen/set_title_fontsize"
+                android:textStyle="bold"
+                android:paddingBottom="2dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"/>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:layout_marginLeft="10dp"
+                      android:layout_marginRight="10dp"
+                      android:paddingTop="2dp"
+                      android:paddingBottom="2dp">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/theme_color"
+                    android:gravity="left|center"
+                    android:textSize="@dimen/set_content_fontsize"
+                    android:layout_weight="1"/>
+            <ImageButton
+                    android:id="@+id/setthemecolor"
+                    android:layout_width="60px"
+                    android:layout_height="60px"
+                    android:layout_gravity="right|center_vertical"
+                    />
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:layout_marginLeft="10dp"
+                      android:layout_marginRight="10dp"
+                      android:paddingTop="2dp"
+                      android:paddingBottom="2dp">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/theme_background"
+                    android:gravity="left|center"
+                    android:textSize="@dimen/set_content_fontsize"
+                    android:layout_weight="1"/>
+            <ImageButton
+                    android:id="@+id/setthemebackground"
+                    android:layout_width="60px"
+                    android:layout_height="60px"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:alpha="1"
+                    android:scaleType="centerCrop"
+                    />
+            <Button
+                    android:id="@+id/setbackground"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:minWidth="50px"
+                    android:minHeight="50px"
+                    android:text="清除"
+                    />
+        </LinearLayout>
+
+        <cn.yang.inme.utils.border.BottomBorderTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="缓存"
+                android:textSize="@dimen/set_title_fontsize"
+                android:textStyle="bold"
+                android:paddingBottom="2dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"/>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:layout_marginLeft="10dp"
+                      android:layout_marginRight="10dp"
+                      android:paddingTop="2dp"
+                      android:paddingBottom="2dp">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/set_clear_caches"
+                    android:gravity="left|center"
+                    android:textSize="@dimen/set_content_fontsize"
+                    android:layout_weight="1"/>
+
+            <TextView android:id="@+id/caches_size"
+                      android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:gravity="center"
+                      android:layout_marginRight="5dp"
+                      android:layout_gravity="right"
+                      android:text="0KB"/>
+            <Button
+                    android:id="@+id/setcaches"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:minWidth="50px"
+                    android:minHeight="50px"
+                    android:text="清除"
+                    />
+        </LinearLayout>
+
+        <cn.yang.inme.utils.border.BottomBorderTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="版本"
+                android:textSize="@dimen/set_title_fontsize"
+                android:textStyle="bold"
+                android:paddingBottom="2dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"/>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:layout_marginLeft="10dp"
+                      android:layout_marginRight="10dp"
+                      android:paddingTop="2dp"
+                      android:paddingBottom="2dp">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/set_version_number"
+                    android:gravity="left|center"
+                    android:textSize="@dimen/set_content_fontsize"
+                    android:layout_weight="1"/>
+            <TextView
+                    android:id="@+id/version_explain"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/version_number"
+                    android:layout_gravity="right"
+                    />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

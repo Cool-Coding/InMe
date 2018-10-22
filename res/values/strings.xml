@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">InMe</string>
+    <string name="homepage">今日</string>
+    <string name="around">周边</string>
+    <string name="find">发现</string>
+    <string name="me">设置</string>
+
+    <string name="around_life">生活</string>
+    <string name="zhoubian_tuangou">周边团购</string>
+    <string name="zhoubian_dianpu">周边店铺</string>
+    <string name="zhoubian_weibo">周边微博</string>
+    <string name="zhoubian_tupian">周边图片</string>
+    <string name="zhoubian_youhui">周边优惠</string>
+    <string name="zhoubian_xinxian">周边新鲜事</string>
+
+    <!--AroundTuangou-->
+    <string name="network_unavailable">加载失败,请单击刷新</string>
+    <string name="network_unavailable_toast">网络不可用，请检查后重试!</string>
+    <string name="aroundtuangousearch_hint">查点什么...</string>
+    <string name="image_status">image_status</string>
+    <string name="dianping_flag1">数据支持</string>
+    <string name="dianping_flag2">大众点评</string>
+    <string name="loading_finished">已为您加载了20条</string>
+
+    <!--AroundShop-->
+    <string name="comments_title">评价</string>
+    <string name="tuangou_loading_tip1">正在加载团购信息.</string>
+    <string name="tuangou_loading_tip2">正在加载团购信息..</string>
+    <string name="tuangou_loading_tip3">正在加载团购信息...</string>
+    <string name="tuangou_loading_result">这个店还没开团哦</string>
+    <string name="youhui_loading_tip1">正在加载优惠券信息.</string>
+    <string name="youhui_loading_tip2">正在加载优惠券信息..</string>
+    <string name="youhui_loading_tip3">正在加载优惠券信息...</string>
+    <string name="youhui_loading_result">这个店还没发布优惠券哦</string>
+    <string name="comment_loading_tip1">正在加载评价信息.</string>
+    <string name="comment_loading_tip2">正在加载评价信息..</string>
+    <string name="comment_loading_tip3">正在加载评价信息...</string>
+    <string name="comment_loading_result">还没有人评论哦</string>
+
+    <!--定位-->
+    <string name="tuangou_locate_fail">X搜索失败,请检查网络连接！</string>
+    <string name="locate_fail">X定位失败，请稍后重试</string>
+    <string name="error_network">搜索失败,请检查网络连接！</string>
+    <string name="locate_success">刷新成功</string>
+
+    <string name="address_location_tag">loaction_address</string>
+    <string name="search_history_tag">search_history</string>
+    <string name="search_location_tag">search_latitude_location</string>
+
+    <string name="aroundshop_footer_tag">shop_refresh_footer</string>
+
+    <string name="error_other">未知错误，请稍后重试!错误码为</string>
+    <string name="no_result">对不起，没有搜索到相关数据！</string>
+    <string name="back">返回</string>
+
+    <!--Homepage-->
+    <string name="BtAddMemo">保存</string>
+    <string name="TextRemindme">提醒我</string>
+    <string name="memo_save">保存成功</string>
+    <string name="no_memo_msg">赶快开启今天的计划吧</string>
+    <string name="memo_empty_delete">内容为空，删除此待办啦</string>
+    <string name="memo_empty_nosave">内容为空，不保存哦</string>
+    <string name="memo_alertmessage_delay">延迟10分钟</string>
+    <string name="memo_alertmessage">知道了</string>
+    <string name="path_location_nodata">没有路径数据</string>
+
+    <string name="memoId">memoid</string>
+
+
+    <!--weibo-->
+    <string name="wb_image_status">wb_image_status</string>
+    <string name="wb_list_exception">连接服务器失败，请稍后重试</string>
+    <string name="wb_publish_wait">请稍等，正在发表...</string>
+    <string name="wb_publish_wait_bk">已转向后台发表</string>
+
+    <!--设置-->
+    <string name="start_path_function_str">启用路径功能</string>
+    <string name="locate_time_interval_str">定位时间间隔(分)</string>
+    <string name="theme_color">主题颜色</string>
+    <string name="theme_background">背景图片</string>
+    <string name="set_clear_caches">缓存大小</string>
+    <string name="set_version_number">版本号</string>
+    <string name="version_number">1.200.17.10.2014</string>
+
+    <string name="theme_background_indicator">theme_background_indicator</string>
+    <!--network-->
+    <string name="defaulthost">yanggy.nat123.net</string>
+    <integer name="defaultport">33398</integer>
+    <integer name="port2">33340</integer>
+</resources>

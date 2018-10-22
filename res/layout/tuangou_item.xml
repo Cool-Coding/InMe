@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:orientation="vertical"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent">
+
+    <ScrollView
+            android:id="@+id/myScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/tuangou_background_border">
+    </ScrollView>
+
+    <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal"
+            android:gravity="center|left">
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:background="@drawable/ic_action_back"
+                   android:onClick="back_to_pgitem"/>
+        <TextView android:id="@+id/tuangou_title"
+                  android:layout_width="match_parent"
+                  android:gravity="center"
+                  android:textSize="@dimen/back_size"
+                  android:textColor="@color/around_color1"
+                  android:layout_marginLeft="10dp"
+                  android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/footer2"
+                  android:layout_width="match_parent"
+                  android:layout_height="40dp"
+                  android:layout_gravity="bottom"
+                  android:orientation="horizontal"
+                  android:gravity="center">
+        <ImageView
+                android:id="@+id/webLoading_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"/>
+        <TextView
+                android:id="@+id/webloading_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/back_size"
+                android:textColor="@color/around_color1"
+                android:layout_gravity="center"/>
+
+    </LinearLayout>
+</FrameLayout>

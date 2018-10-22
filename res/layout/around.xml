@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical">
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:layout_weight="1">
+                <TableLayout android:layout_width="match_parent"
+                             android:layout_height="match_parent">
+                    <TableRow>
+                        <TextView
+                                android:text="@string/around_life"
+                                android:textSize="18sp"
+                                />
+                    </TableRow>
+                    <ImageView
+                            android:layout_width="match_parent"
+                            android:background="@drawable/title_line"
+                            android:scaleType="centerCrop"/>
+                    <TableRow android:divider="@drawable/item_divider"
+                              android:showDividers="beginning|middle">
+                        <RadioButton
+                                android:id="@+id/tuangou"
+                                android:drawableLeft="@drawable/life"
+                                style="@style/around_life"
+                                android:text="@string/zhoubian_tuangou"
+                                android:onClick="showAroundTuangou"/>
+                        <RadioButton
+                                android:id="@+id/youhui"
+                                android:drawableLeft="@drawable/life"
+                                style="@style/around_life"
+                                android:text="@string/zhoubian_youhui"/>
+                    </TableRow>
+                    <TableRow android:divider="@drawable/item_divider"
+                              android:showDividers="middle">
+                        <RadioButton
+                                android:drawableLeft="@drawable/life"
+                                style="@style/around_life"
+                                android:text="@string/zhoubian_dianpu"
+                                android:onClick="showAroundShop"/>
+                        <RadioButton
+                                android:drawableLeft="@drawable/life"
+                                style="@style/around_life"
+                                android:text="@string/zhoubian_weibo"
+                                android:onClick="showAroundWeibo"/>
+                    </TableRow>
+                    <TableRow android:divider="@drawable/item_divider"
+                              android:showDividers="middle">
+                        <RadioButton
+                                android:drawableLeft="@drawable/life"
+                                style="@style/around_life"
+                                android:text="@string/zhoubian_tupian"/>
+                        <RadioButton
+                                android:drawableLeft="@drawable/life"
+                                style="@style/around_life"
+                                android:text="@string/zhoubian_xinxian"/>
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:layout_marginBottom="10dp"
+                          android:layout_weight="1">
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

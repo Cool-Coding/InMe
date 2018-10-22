@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+
+    <com.amap.api.maps2d.MapView
+            android:id="@+id/map"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+
+    <LinearLayout android:layout_width="10dp"
+                  android:layout_height="50dp"
+                  android:layout_marginBottom="5dp"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:background="@drawable/shoplocation_background2"/>
+
+    <Button android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="bottom|center_horizontal"
+              android:orientation="horizontal"
+              android:layout_marginBottom="50dp"
+              android:text="到这儿去"
+              android:textSize="16sp"
+              android:paddingLeft="8dp"
+              android:paddingRight="8dp"
+              android:paddingTop="3dp"
+              android:paddingBottom="3dp"
+              android:onClick="go_locate_line"
+              android:background="@drawable/shoplocation_background"
+            />
+</FrameLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+         android:id="@android:id/tabhost"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="1.0">
+        </FrameLayout>
+
+
+        <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+        </TabWidget>
+
+        <RadioGroup
+                android:id="@+id/footer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:orientation="horizontal">
+
+            <RadioButton
+                    android:id="@+id/homepage"
+                    android:drawableTop="@drawable/n_talk_h"
+                    style="@style/rbt_bottom"
+                    android:text="@string/homepage" android:checked="false"/>
+
+            <RadioButton
+                    android:id="@+id/around"
+                    android:drawableTop="@drawable/n_address_h"
+                    style="@style/rbt_bottom"
+                    android:text="@string/zhoubian_tuangou"/>
+
+            <RadioButton
+                    android:id="@+id/find"
+                    android:drawableTop="@drawable/n_find_h"
+                    style="@style/rbt_bottom"
+                    android:text="@string/zhoubian_dianpu"/>
+            <RadioButton
+                    android:id="@+id/me"
+                    android:drawableTop="@drawable/n_me_h"
+                    style="@style/rbt_bottom"
+                    android:text="@string/me"/>
+
+        </RadioGroup>
+    </LinearLayout>
+
+</TabHost>
+

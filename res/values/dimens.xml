@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="headerSize">20</integer>
+    <integer name="topPadding">10</integer>
+    <dimen name="marginBottom">3dp</dimen>
+
+    <!--返回按钮字体-->
+    <dimen name="back_size">16sp</dimen>
+
+    <!--首页-->
+    <dimen name="group_size">10sp</dimen>
+    <dimen name="item_size">8sp</dimen>
+    <!--AroundTuango搜索字体与搜索历史大小-->
+    <dimen name="search_size">8sp</dimen>
+    <dimen name="search_history_size">8sp</dimen>
+    <dimen name="aroundtuangou_basesize">7sp</dimen>
+    <dimen name="dianping_flag">14sp</dimen>
+    <integer name="aroundtuangou_item_border">5</integer>
+
+    <!--AroundShop搜索字体与搜索历史大小-->
+    <dimen name="aroundshop_basesize">7sp</dimen>
+    <dimen name="aroundshop_detail_basesize">9sp</dimen>
+    <dimen name="aroundshop_detail_margin">9dp</dimen>
+    <integer name="aroundshop_item_border">5</integer>
+    <integer name="aroundshop_item_linespace">5</integer>
+    <dimen name="aroundshop_detail_margin2">5dp</dimen>
+    <dimen name="aroundshop_detail_margin_LR">10dp</dimen>
+
+    <!--团购地址右边距-->
+    <integer name="aroundtuangou_address_rightMargin">20</integer>
+    <!--团购地址字体大小-->
+    <dimen name="address_location_fontsize">8sp</dimen>
+
+    <!-- 正在加载文本上边距 -->
+    <dimen name="picture_loading_text_top_margin">12dp</dimen>
+    <!-- 下拉刷新字体 -->
+    <dimen name="picture_pull_to_refresh_loading_text_size">14dp</dimen>
+    <dimen name="picture_pull_to_refresh_last_update_time_text_size">10dp</dimen>
+    <dimen name="picture_pull_to_refresh_last_update_time_top_margin">6dp</dimen>
+    <dimen name="picture_pull_to_refresh_footer_height">40dp</dimen>
+
+    <!--weibo-->
+    <integer name="image_selector_circle_radius">24</integer>
+    <dimen name="weibo_header_fontsize">10sp</dimen>
+    <dimen name="weibo_content_fontsize">8sp</dimen>
+    <integer name="wb_upload_image">800</integer>
+    <integer name="weibo_picked_image_count">6</integer>
+    <integer name="weibo_list_pagecount">20</integer>
+
+    <!--用户-->
+    <integer name="wb_upload_userimage">90</integer>
+
+    <!--设置-->
+    <dimen name="set_title_fontsize">20sp</dimen>
+    <dimen name="set_content_fontsize">16sp</dimen>
+    <integer name="set_theme_background_size">50</integer>
+
+    <!--提醒框字体大小-->
+    <dimen name="alert_title_size">15sp</dimen>
+
+    <dimen name="toast_text_size">8sp</dimen>
+</resources>

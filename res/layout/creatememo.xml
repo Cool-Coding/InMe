@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <EditText android:id="@+id/content"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:minHeight="100dp"
+              android:layout_weight="1"
+              android:hint="记事内容"
+              android:gravity="top">
+
+    </EditText>
+    <cn.yang.inme.utils.border.TopBorderLinearLayout
+            android:id="@+id/remindMeParent"
+            android:layout_height="35dp"
+            android:layout_width="match_parent">
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:background="@drawable/ic_action_notice"
+                   android:layout_marginLeft="8dp"/>
+        <TextView android:id="@+id/remindMe"
+                  android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:gravity="center"
+                  android:text="@string/TextRemindme"/>
+    </cn.yang.inme.utils.border.TopBorderLinearLayout>
+
+    <Button android:id="@+id/addMemoBt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginBottom="10dp"
+            android:text="@string/BtAddMemo"/>
+</LinearLayout>
