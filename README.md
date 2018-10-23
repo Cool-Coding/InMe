@@ -6,7 +6,7 @@ Idea
  
 ### 功能
 -  待办事项
--  统计通话与短信
+-  统计通话与短信(可按照联系人分类显示)
 -  显示行走路径
 -  周边美食
 -  设置主题，背景图片
@@ -22,4 +22,4 @@ Idea
 [https://www.wandoujia.com/apps/cn.yang.inme](https://www.wandoujia.com/apps/cn.yang.inme)
 
 ### 说明
-开发这款应用仅出于兴趣爱好，非商业用途，已不更新。
+这款应用已不更新。
